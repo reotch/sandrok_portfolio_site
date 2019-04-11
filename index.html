@@ -1,0 +1,156 @@
+<DOCTYPE! html>
+<html>
+	<head>
+		<!-- Requirements -->
+		<!-- Text -->
+		<!-- lists -->
+		<!-- 2 links -->
+		<!-- 2 images -->
+		<!-- 1 form -->
+		<title>Richard @ Coding Temple</title>
+		<!-- Select the Stylesheet; "styles" is mine, "styles_alt" is the emulation of the class pre-work format -->
+		<!-- <link rel="stylesheet" type="text/css" href="css/styles.css" /> -->
+		<link rel="stylesheet" type="text/css" href="css/styles_alt.css" />
+	</head>
+	<body>
+		<div class="main-body">
+			<h1 id="top">Richard Sandrok Portfolio</h1>
+			
+			<header>
+				<!-- Navigation Links -->
+				<nav>
+					<ul>
+						<li><a href="">Who I am</a></li>
+						<li><a href="">What I do</a></li>
+						<li><a href="">How I got here</a></li>
+					</ul>
+				</nav>
+			</header>
+			<article>
+				<h2>Don't Call It an Intro</h2>
+				<p>Hi, I'm Richard. I've had a long and meandering path to this point. My early CS experience was in music, using sequencing software that was entirely MIDI parameter-based on a <a href="https://en.wikipedia.org/wiki/GoldStar">Goldstar</a> 386/33 MHz. I grew up playing music, and the change from reading notation to programming synthesizers was jarring. I sort of packed that away until I was in college, when I took a web design and started learning C++. It was a while ago. Email was new.</p>
+				<p>Since I graduated I've worked in the musical instrument industry, doing endorsement marketing with artists and engineers who utilized certain musical instrument brands. I did that for a spell, and got hit with a re-org. In the years between then and now I've picked up other media production tools in addition to music, e.g., video capture/edit/production, presention design, and some e-Learning. I had done some coding by necessity and curiousity, applying it professionally as needed.</p>
+				<h3>The TL;DR</h3>
+					<p>It's a lot to read, I know. Here's the tweet version:
+					<ul class="listicle">
+						<li>I did endorsement marketing and sales for a microphone company; I now sell in-ear monitors to pro-audio professionals and musicians</li>
+						<li>I had to pick up video and webinar production skills for e-Learning stuff</li>
+						<li>I have very light coding experience</li>
+					</ul>
+				<h2>What Am I Doing Here?</h2>
+				<p>I once found myself sitting in a recruiter's office one day, describing the skills set I had acquired through my winding path.</p>
+				<p><q>Oh,</q> said my rep. <q>We call that a 'digital producer'. What audio and video programs do you work in?</q><br /><q>Are you open to travel?</q><br /><q>Do you speak any other languages?</q><br /><q>How about programming languages?</q></p>
+				<p>I didn't try to fake it. I knew enough to make single-source documentation and lightly decorate a web page. Not much in the way of anything else. I could tell this was the missing pillar in my skills-set.</p>
+			</article>
+			<article>
+				<h2>Hopes and Dreams</h2>
+				<p>I don't know that I'd say my motivation for enrolling is to radically change my career. I just think it's necessary to stay on the design-side of the programs that seem to make my current job more of a commodity every day. I may have a leg up on the average Instagrammer when it comes to project workflow, but let's face it—making the end product look like you want is becoming increasingly easy and not many people care about how you got it done. Not many followers, anyway.</p>
+				<p>I'm also a DIY person. I want to have a home server. I want to know exactly what is going on with the family smart home. Down the road I'd like to make apps. I'd also like to work on robotics. I want to tool around with Arduino projects.</p>
+			</article>
+			<article>
+				<h2>A Brief Explanation of IEMs</h2>
+				<p>I mentioned above that I sell <a href="https://www.sensaphonics.com" target="_blank">Sensaphonics</a> <dfn>in-ear monitors</dfn> (aka <dfn>IEM</dfn>s) to musicians, audio engineers, and producers. What are IEMs? <br />
+				Earphones.</p>
+				<p>More specifically, they're earphones that are designed to output sound inside the ear canal rather than on top of the ear or in the ear's concha. They also, ideally, isolate the ear canal from outside sound. Some are designed to do this using methods anyone can use (generic IEMs) and some are designed to fit a single customer (custom IEMs).</p>
+				<p>Think of custom earphones like a bespoke suit. Like a bespoke suit, it is designed to fit one person. Unlike a bespoke suit, no one else of nearly the same size can wear it.</p>
+			</article>
+			<!-- Table time -->
+			<table>
+				<tr>
+					<th>Day</th>
+					<th>Sunday</th>
+					<th>Monday</th>
+					<th>Tuesday</th>
+					<th>Wednesday</th>
+					<th>Thursday</th>
+					<th>Friday</th>
+					<th>Saturday</th>
+				</tr>
+				<tr>
+					<td>08:00</td>
+				</tr>
+				<tr>
+					<td>09:00</td>
+				</tr>
+				<tr>
+					<td>10:00</td>
+				</tr>
+				<tr>
+					<td>11:00</td>
+				</tr>
+				<tr>
+					<td>12:00</td>
+				</tr>
+				<tr>
+					<td>13:00</td>
+				</tr>
+				<tr>
+					<td>14:00</td>
+				</tr>
+				<tr>
+					<td>15:00</td>
+				</tr>
+				<tr>
+					<td>16:00</td>
+				</tr>
+				<tr>
+					<td>17:00</td>
+				</tr>
+			</table>
+			<!-- Here is the FORM section of the porfolio page -->
+			<div class="sensaphonics">
+				<p>This is a project order form I want to build out for the in-ear monitors I sell.</p>
+				<section>
+					<form id="order-form" action="" method="post"> <!-- NEEDS ACTION | learn new shit, yo -->
+						<p>First Name:
+							<input type="text" name="first-name" maxlength="24" />
+						</p>
+						<p>Last Name:
+							<input type="text" name="last-name" maxlength="24" />
+						</p>
+						<p>Select your IEM:</p>
+						<select class="input-field" name="iem">
+							<option value="d2">D2 – Dual Dynamic Drivers</option>
+							<option value="2s-x">2S-X – Dual Balanced Armature Drivers</option>
+							<option value="2max">2MAX – Dual Balanced Armature Drivers, low impedence</option>
+							<option value="3max">3MAX – Three Balanced Armature Drivers, single crossover</option>
+						</select>
+						<p>Select your cable:</p>
+						<select class="options">
+							<option value="standard" name="standard">Silver, 52", field replaceable, MMCX connector (standard)</option>
+							<option value="option0" name="silver-mmcx-60">Silver, 60", field replaceable, MMCX connector</option>
+							<option value="option1" name="black-mmcx-52">Black, 52", field replaceable, MMCX connector</option>
+							<option value="option2" name="black-mmcx-60">Black, 60", field replaceable, MMCX connector</option>
+							<option value="option3" name="silver-attached-52">Silver, 52", permanently attached</option>
+							<option value="option4" name="silver-attached-60">Silver, 60", permanently attached</option>
+							<option value="option5" name="silver-breakaway-50">Silver, 50", breakaway connector</option>
+						</select>
+						<p>
+						<input type="submit" name="submit-order" value="Submit">
+						</p>
+						<p>Enter any additional requests:</p>
+						<textarea class="input-field" id="comments" name="requests">Enter options here...</textarea>
+					</form>
+				</section>
+			</div>
+			<!-- Sidebar stuff -->
+			<div class="sidebar">
+				<section id="me">
+					<img class="headshot" src="images/dancing_plant.jpg" alt="Richard Sandrok profile photo"/>
+				</section>
+				<section id="interesting-list">
+				</section>
+				<section id="follow-me">
+					<p>I'm on <a href="https://twitter.com/richardsandrok">Twitter</a>
+					<p><a href="https://instagram.com/reotch_inc">Instagram</a>
+				</section>
+			</div>
+		</div>
+		<footer>
+			<address>
+				<p><a href="mailto:richard@sandrok.com">richard@sandrok.com</a> | <a href="tel:18478682028">+1 847-868-2028</a> | 835 Ridge Ave., Evanston, IL</p>
+			</address>
+			<p id="copyright">&#169;2019 Unlimited Reotch, Inc.</p>
+		</footer>
+	</body>
+</html>
