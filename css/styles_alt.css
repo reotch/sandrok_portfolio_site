@@ -1,0 +1,21 @@
+body {
+	font-family: "Open Sans", Verdana, sans-serif;
+}
+
+h1 {
+	font-size: xlarge;
+	font-weight: 700;
+	text-align: center;
+	padding: 40px;
+}
+
+nav {
+	background-color: hsl(0, 0%, 20%);
+	list-style-type: none;
+	padding: 5px;
+}
+
+nav ul li {
+	display: inline;
+
+}
